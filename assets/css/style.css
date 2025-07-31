@@ -1,0 +1,54 @@
+/* ALL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer {
+    border: 6px outset #000000;
+    border-radius: 25px;
+    box-shadow: 8px 15px 21px 7px rgba(0,0,0,0.43);
+    -webkit-box-shadow: 8px 15px 21px 7px rgba(0,0,0,0.43); 
+    background-color: rgba(255, 255, 255, 0.787);
+    width: 230px;
+    padding: 70px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    font-size: 18px;
+    background-size: 100%;
+}
+
+.subButton {
+color: rgb(255, 255, 255); font-size: 20px; line-height: 20px; padding: 11px; border-radius: 16px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgba(0, 0, 0, 0.43) 8px 15px 21px 7px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+.subButton:hover {
+background: #1C6EA4; }
+.subButton:active {
+background: #144E75; }
+
+/* FOOTER */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
